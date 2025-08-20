@@ -14,7 +14,7 @@ public class TestClass extends BaseTest {
     }
 
     @Test
-    public void openLearnMoreAboutStratocumulus() {
+    public void testOpenLearnMoreAboutStratocumulus() {
         String actualText = mainPage.listDemoClick()
                 .stratocumulusClick()
                 .learnMoreAboutStratocumulusClick()
